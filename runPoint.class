@@ -1,0 +1,9 @@
+package point;
+public class runPoint {
+	public static void main(String[] args) {
+		point n=new point("a", 1, 2, 3);
+		System.out.println(n);
+		System.out.println("Diem doi xung la: "+n.negate());
+		System.out.println("Khoang cach la: "+n.kkk());
+	}
+}

@@ -1,0 +1,37 @@
+package hinhTru;
+
+public class hinhTru {
+	private int bk,cc;
+
+	public int getBk() {
+		return bk;
+	}
+
+	public void setBk(int bk) {
+		this.bk = bk;
+	}
+
+	public int getCc() {
+		return cc;
+	}
+
+	public void setCc(int cc) {
+		this.cc = cc;
+	}
+
+	public hinhTru(int bk, int cc) {
+		super();
+		this.bk = bk;
+		this.cc = cc;
+	}
+	public Double dienTichtp() {
+		return 2*Math.PI*bk*bk;
+	}
+	public double sxq() {
+		return (bk*cc);	
+	}
+	public Double theTich() {
+		return cc*bk*bk*Math.PI;
+	}
+	
+}

@@ -1,0 +1,10 @@
+package hinhTru;
+
+public class runHinhTru {
+	public static void main(String[] args) {
+		hinhTru n=new hinhTru( 5, 2);
+		System.out.println("S tp= "+n.dienTichtp());
+		System.out.println("S xq="+n.sxq());
+		System.out.println("V= "+n.theTich());
+	}
+}
